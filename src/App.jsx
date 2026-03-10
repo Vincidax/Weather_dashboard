@@ -51,13 +51,19 @@ function App() {
     }
   };
 
+  // Reset to default home view
+  const resetToHome = () => {
+    setSearchResult(null);
+    fetchDefaultCities(); // reload default cities
+  };
+
   useEffect(() => {
     fetchDefaultCities();
   }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-400 to-blue-200 px-4">
-      <Header />
+      <Header onHome={resetToHome} />
 
       <SearchBar onSearch={searchWeather} />
 
