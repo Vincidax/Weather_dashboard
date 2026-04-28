@@ -21,7 +21,7 @@ A responsive **front-end web application** built with **React** and **Tailwind C
 ## Demo
 
 A live version of the app is deployed on Vercel:  
-[Weather Dashboard on Vercel](https://your-vercel-app.vercel.app)
+[Weather Dashboard on Vercel](https://weather-dashboard-dushimevincent.vercel.app/)
 
 ---
 
